@@ -1,0 +1,15 @@
+general:
+  env: dev
+
+github:
+  auth: dfa286e6de2d43501f85316682b4df4cd13f03ff
+
+environments:
+  dev:
+    db: algthm_development
+
+  test:
+    db: algthm_test
+
+logging:
+  indexer: logging.yaml
